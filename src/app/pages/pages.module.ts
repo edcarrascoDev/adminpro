@@ -8,10 +8,23 @@ import { Graphic1Component } from './graphic1/graphic1.component';
 import { PagesComponent } from './pages.component';
 import { PagesRoutingModule } from './pages-routing.module';
 import { ProgressComponent } from './progress/progress.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
     imports: [CommonModule, SharedModule, PagesRoutingModule, FormsModule],
-    declarations: [DashboardComponent, Graphic1Component, PagesComponent, ProgressComponent],
-    exports: [DashboardComponent, Graphic1Component, PagesComponent, ProgressComponent],
+    declarations: [
+        DashboardComponent,
+        Graphic1Component,
+        PagesComponent,
+        ProgressComponent,
+        AccountSettingsComponent,
+    ],
+    exports: [
+        DashboardComponent,
+        Graphic1Component,
+        PagesComponent,
+        ProgressComponent,
+        AccountSettingsComponent,
+    ],
 })
 export class PagesModule {}
