@@ -1,1 +1,32 @@
-<p>graphic1 works!</p>
+<div class="row">
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <app-doughnut title="Sales" [data]="[[300, 200, 145]]"></app-doughnut>
+            </div>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <app-doughnut title="Incomes" [data]="[[300, 200, 145]]"></app-doughnut>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <app-doughnut title="expenses" [data]="[[10, 400, 100]]"></app-doughnut>
+            </div>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <app-doughnut title="taxes" [data]="[[1000, 10, 500]]"></app-doughnut>
+            </div>
+        </div>
+    </div>
+</div>
